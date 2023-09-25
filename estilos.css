@@ -1,0 +1,38 @@
+
+h1 {
+    font-family: "Arial", sans-serif; /* Cambia la fuente a Arial o una fuente que prefieras */
+    font-size: 36px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    color: #333; /* Cambia el color de texto a uno que te guste */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px; /* Añade espaciado entre las letras */
+    margin-bottom: 20px; /* Añade margen inferior para separarlo de otros elementos */
+}
+
+/* Aplicar bordes y colores a la tabla */
+#miTabla {
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes */
+    width: 100%; /* Opcional: ajusta el ancho de la tabla al 100% del contenedor */
+}
+
+#miTabla th, #miTabla td {
+    border: 1px solid #ccc; /* Establece un borde de 1px sólido de color gris claro */
+    padding: 8px; /* Añade espacio entre el contenido y el borde */
+}
+
+/* Cambia el color de fondo de las filas pares */
+#miTabla tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cambia el color de fondo de las filas pares */
+}
+
+/* Cambia el color de fondo de las filas impares */
+#miTabla tbody tr:nth-child(odd) {
+    background-color: #fff; /* Cambia el color de fondo de las filas impares */
+}
+
+#miTabla {
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor (opcional) */
+    max-width: 1300px; /* Define un ancho máximo para la tabla, ajusta el valor según tus preferencias */
+    margin: 0 auto; /* Centra la tabla horizontalmente en su contenedor (opcional) */
+}
+
